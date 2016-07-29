@@ -1,0 +1,34 @@
+h1{
+	font-family:Arial,Tahoma;
+	width:200px;
+	margin:0 auto;
+}
+nav ol li a{
+	font-size: 14px;
+	color:green;
+	text-decoration: none;
+}
+table > caption{
+	caption-side:top;
+}
+table tr td{
+	width:100px;
+	text-align:center;
+}
+table tr th{
+	width:100px;
+	padding: 0;
+	text-align: center;
+}
+tbody tr:nth-child(odd) td{
+   box-shadow:5px 3px black;
+}
+table{
+	/*border-spacing: 0em;*/
+}
+tbody .secondr td{
+	box-shadow:inset 1px 1px 0 4px #0cd2dc;
+}
+tbody tr:first-child td{
+	box-shadow:inset 1px 1px 14px #5c755c;
+}
